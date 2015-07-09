@@ -1,0 +1,281 @@
+/*
+CITRICOX - SASS BOOTSTRAP THEME
+Author: Ismael Fernández
+Version: 1.0
+*/
+/*BASE - Base styles, variables, mixins,etc */
+/* Font Colors*/
+/* Background Colors */
+@media (max-width: 767px) {
+  /* line 44, ../scss/base/_mixins.scss */
+  ul.navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+}
+/* line 1, ../scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, ../scss/base/_normalize.scss */
+.progress {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid #EBEBEB;
+  height: 40px;
+  margin-top: 30px;
+}
+
+/* line 14, ../scss/base/_normalize.scss */
+.skillbar {
+  background: #EC6363;
+  line-height: 37px;
+  padding-left: 10px;
+}
+
+/* line 22, ../scss/base/_normalize.scss */
+.form-control {
+  border-radius: 0;
+}
+
+/* line 23, ../scss/base/_normalize.scss */
+input, select, textarea {
+  background: #f5f5f5 !important;
+  border: none !important;
+}
+
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 7, ../scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 11, ../scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 13, ../scss/base/_base.scss */
+input, textarea, button, select {
+  border-radius: 0;
+}
+
+/* MODULES */
+/* line 1, ../scss/modules/_sections.scss */
+section.showcase {
+  background: #000;
+  height: 250px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #FFF;
+}
+/* line 8, ../scss/modules/_sections.scss */
+section.showcase h1 {
+  font-size: 65px;
+  line-height: 50px;
+}
+/* line 9, ../scss/modules/_sections.scss */
+section.showcase h1 .nombre {
+  font-weight: bold;
+}
+/* line 10, ../scss/modules/_sections.scss */
+section.showcase h1 .apellido {
+  font-weight: 200;
+}
+
+/* line 19, ../scss/modules/_sections.scss */
+.container.separator {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* line 22, ../scss/modules/_sections.scss */
+.fotoperfil {
+  border: 8px solid #EBEBEB;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* line 30, ../scss/modules/_sections.scss */
+.section-lighten {
+  background: #EBEBEB;
+}
+
+/* line 31, ../scss/modules/_sections.scss */
+.fecha {
+  width: 150px;
+  padding: 10px;
+  display: block;
+  margin: 20px 0px -5px 2%;
+  text-align: center;
+  background: #FFF;
+  font-weight: bold;
+}
+
+/* line 44, ../scss/modules/_sections.scss */
+.estudio {
+  background: #f5f5f5;
+  padding: 20px;
+  -webkit-box-shadow: 0px 2px 9px 0px rgba(158, 158, 158, 0);
+  -moz-box-shadow: 0px 2px 9px 0px rgba(158, 158, 158, 0);
+  box-shadow: 0px 2px 9px 0px rgba(158, 158, 158, 0);
+}
+
+/* line 52, ../scss/modules/_sections.scss */
+ul.educacion {
+  position: relative;
+  /* ::before {
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 54%;
+    top: 0;
+    content: ' ';
+    display: block;
+    background: #ec7263;
+    background: -moz-linear-gradient(top, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#ec7263), color-stop(89%,#ec7263), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+  }*/
+}
+/* line 55, ../scss/modules/_sections.scss */
+ul.educacion li {
+  width: 150px;
+  padding: 10px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  background: #FFF;
+  font-weight: bold;
+}
+
+/* line 90, ../scss/modules/_sections.scss */
+.glyphicon-lg {
+  font-size: 3em;
+}
+
+/* line 91, ../scss/modules/_sections.scss */
+.blockquote-box {
+  border-right: 5px solid #E6E6E6;
+  margin-bottom: 25px;
+}
+
+/* line 92, ../scss/modules/_sections.scss */
+.blockquote-box .square {
+  width: 100px;
+  min-height: 50px;
+  margin-right: 22px;
+  text-align: center!important;
+  background-color: #E6E6E6;
+  padding: 20px 0;
+}
+
+/* line 93, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-primary {
+  border-color: #357EBD;
+}
+
+/* line 94, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-primary .square {
+  background-color: #428BCA;
+  color: #FFF;
+}
+
+/* line 95, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-success {
+  border-color: #4CAE4C;
+}
+
+/* line 96, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-success .square {
+  background-color: #5CB85C;
+  color: #FFF;
+}
+
+/* line 97, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-info {
+  border-color: #46B8DA;
+}
+
+/* line 98, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-info .square {
+  background-color: #5BC0DE;
+  color: #FFF;
+}
+
+/* line 99, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-warning {
+  border-color: #EEA236;
+}
+
+/* line 100, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-warning .square {
+  background-color: #F0AD4E;
+  color: #FFF;
+}
+
+/* line 101, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-danger {
+  border-color: #D43F3A;
+}
+
+/* line 102, ../scss/modules/_sections.scss */
+.blockquote-box.blockquote-danger .square {
+  background-color: #D9534F;
+  color: #FFF;
+}
+
+/* line 1, ../scss/modules/_components.scss */
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+/* LAYOUTS */
+/* NavBar */
+/* line 2, ../scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  background: #FFF;
+  min-height: 60px;
+  margin-bottom: 30px;
+}
+/* line 13, ../scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0;
+  font-size: 20px;
+}
+/* line 19, ../scss/layouts/_nav.scss */
+.navbar a:hover {
+  color: #666666 !important;
+}
+/* line 20, ../scss/layouts/_nav.scss */
+.navbar a:focus {
+  color: #666666 !important;
+}
+/* line 22, ../scss/layouts/_nav.scss */
+.navbar .nav {
+  float: right;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+footer {
+  background: #ebebeb;
+}
