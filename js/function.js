@@ -7,7 +7,13 @@ formulario = $("#agregar");
    listado = $("#listado");
   cargando = $("#cargando");
   eliminar = $(".btnEliminar");
+cargarUser = $("#cargarUser");
+agregarUser= $("#agregarUser");
+
+
 cargando.hide();
+cargarUser.hide();
+
 
 $(function(){
 
@@ -93,6 +99,9 @@ $('body').delegate('.btnEliminar', 'click', function(){
 
 
 
+agregarUser.on("click",function(){
+    cargarUser.toggle("slow");
+});
 
 
 

@@ -1,17 +1,16 @@
 /* NavBar */
 .navbar{
-	width:90%;
+	width:100%;
 	margin:auto;
 	@include add-border(1px, #e7e7e7, 'right-left');
 	border-color:#e7e7e7;
-	background:#FFF;
+	background:#29211c;
 	min-height:60px;
 	margin-bottom:30px;
 
 
 
 	a{
-      color:$primary-color;
       font-size:20px;
 
        
@@ -21,7 +20,7 @@
 	
 	.nav{float:right}
 
-
+	a{color:#FFF !important}
 
 
 }

@@ -17,28 +17,51 @@
 <body>
 
 
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand" href="#">Manager</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#" id="agregarUser"><i class="glyphicon glyphicon-plus"></i> Agregar Usuario </a></li>
+				</ul>
 
+
+			</div>
+		</div>
+	</nav>
 
 	<div class="container">
 		<h1>Jquery Ajax Insert and Delete + Sweet alerts</h1>
 		<hr>
+
+	</div>
+	
+	<div id="cargarUser">
+		<div class="container">
 		<div class="col-sm-3 clearfix"></div>
 		<div class="col-sm-6 clearfix">
 			<form action="" id="agregar">
 				<input type="text" id="nombre" placeholder="Nombre" required><br><br>
 				<input type="text" id="apellido" placeholder="Apellido" required><br><br>
 				<input type="email" id="email" placeholder="Email" required><br><br>
-				<input type="submit" class="btn btn-primary btn-lg" value="Agregar Usuario">
+				<input type="submit" class="btn btn-primary" value="Agregar Usuario">
+				<input type="reset" class="btn btn-danger">
 			</form>
 			
 			<img src="img/loading.gif" id="cargando">
 		</div>
 		<div class="col-sm-3 clearfix"></div>
-		
-		
-		<div class="col-sm-12 clearfix" id="mensaje">
+		</div>
+	</div>
+
+	<div class="container">
+	   <div class="col-sm-12 clearfix" id="mensaje">
 			<hr>
-			
 			<table class="table table-striped table-advance table-hover">
 				<thead>
 					<tr>
@@ -49,16 +72,12 @@
 					</tr>
 				</thead>
 				<tbody id="listado">
-
-
 				</tbody>
 			</table>	
 
-
-
 		</div>
+	 </div>
 
-	</div>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script> 
