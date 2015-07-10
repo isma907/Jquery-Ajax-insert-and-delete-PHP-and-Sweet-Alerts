@@ -45,6 +45,7 @@ formulario.submit(function(){
     success:function(data){
      cargando.fadeIn( "slow").fadeOut(1900);
      cargarListado();
+     swal("Excelente", "Usuario "+ nombreF +" agregado", "success")
 
    }
  });
