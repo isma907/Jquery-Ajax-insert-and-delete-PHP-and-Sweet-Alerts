@@ -11,7 +11,7 @@
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet"> 
 	<script src="js/sweetalert-dev.js"></script>
-   <link rel="stylesheet" href="css/sweetalert.css">
+	<link rel="stylesheet" href="css/sweetalert.css">
 </head>
 
 <body>
@@ -20,8 +20,8 @@
 
 
 	<div class="container">
-	<h1>Jquery Ajax Insert and Delete + Sweet alerts</h1>
-	<hr>
+		<h1>Jquery Ajax Insert and Delete + Sweet alerts</h1>
+		<hr>
 		<div class="col-sm-3 clearfix"></div>
 		<div class="col-sm-6 clearfix">
 			<form action="" id="agregar">
@@ -30,14 +30,14 @@
 				<input type="email" id="email" placeholder="Email" required><br><br>
 				<input type="submit" class="btn btn-primary btn-lg" value="Agregar Usuario">
 			</form>
-		
-		<img src="img/loading.gif" id="cargando">
+			
+			<img src="img/loading.gif" id="cargando">
 		</div>
 		<div class="col-sm-3 clearfix"></div>
 		
 		
 		<div class="col-sm-12 clearfix" id="mensaje">
-		<hr>
+			<hr>
 			
 			<table class="table table-striped table-advance table-hover">
 				<thead>
