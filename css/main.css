@@ -5,6 +5,7 @@ Version: 1.0
 */
 /*BASE - Base styles, variables, mixins,etc */
 /* Font Colors*/
+/*$base-font-family:sans-serif;*/
 /* Background Colors */
 @media (max-width: 767px) {
   /* line 44, ../scss/base/_mixins.scss */
@@ -44,15 +45,15 @@ h1, h2, h3, h4, h5 {
 input, select, textarea {
   border: 1px solid #DDD !important;
   height: 42px;
-  font-size: 18px;
+  font-size: 1em;
   padding: 10px;
 }
 
 /* line 1, ../scss/base/_base.scss */
 body {
   font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
-  font-size: 15px;
-  line-height: 1.7em;
+  font-size: 1.5;
+  line-height: 18px;
   color: #666666;
 }
 
@@ -97,21 +98,21 @@ button, input[type="submit"], input[type="reset"] {
   border-right: 1px solid #e7e7e7;
   border-left: 1px solid #e7e7e7;
   border-color: #e7e7e7;
-  background: #29211c;
+  background: #5699AA;
   min-height: 60px;
   margin-bottom: 30px;
 }
 /* line 13, ../scss/layouts/_nav.scss */
 .navbar a {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 /* line 18, ../scss/layouts/_nav.scss */
 .navbar a:hover {
-  color: #666666 !important;
+  color: #DDD !important;
 }
 /* line 19, ../scss/layouts/_nav.scss */
 .navbar a:focus {
-  color: #666666 !important;
+  color: #DDD !important;
 }
 /* line 21, ../scss/layouts/_nav.scss */
 .navbar .nav {

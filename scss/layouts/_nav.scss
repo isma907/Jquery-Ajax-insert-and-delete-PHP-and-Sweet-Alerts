@@ -4,19 +4,19 @@
 	margin:auto;
 	@include add-border(1px, #e7e7e7, 'right-left');
 	border-color:#e7e7e7;
-	background:#29211c;
+	background:#5699AA;
 	min-height:60px;
 	margin-bottom:30px;
 
 
 
 	a{
-      font-size:20px;
+      font-size:1.2em;
 
        
 	}
-	a:hover{color:$base-font-color !important}
-    a:focus{color:$base-font-color !important}
+	a:hover{color:#DDD !important}
+    a:focus{color:#DDD !important}
 	
 	.nav{float:right}
 
